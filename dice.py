@@ -35,6 +35,8 @@ while x <= rolls:
 	x = x+1
 
 
+
+
 print("The results are:")
 print("Total rolls:" + str(rolls))
 print("1s: " + str(a))
@@ -43,4 +45,10 @@ print("3s: " + str(c))
 print("4s: " + str(d))
 print("5s: " + str(e))
 print("6s: " + str(f))
-
+print("The percentages are")
+print("1s: " + str((a / rolls)*100) + "%")
+print("2s: " + str((b / rolls)*100) + "%")
+print("3s: " + str((c / rolls)*100) + "%")
+print("4s: " + str((d / rolls)*100) + "%")
+print("5s: " + str((e / rolls)*100) + "%")
+print("6s: " + str((f / rolls)*100) + "%")
